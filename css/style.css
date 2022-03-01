@@ -24,19 +24,20 @@ body {
     background-color: hsl(217, 54%, 11%);
 }
 
+
 figure {
-    margin: 5px;
+    margin: 25px;
 }
 
 hr {
     background-color: #2d3f57;
     border: none;
     height: 2px;
-    margin: 5px 0 5px 0;
+    margin: 15px 0 15px 0;
 }
 
 .attribution {
-    font-size: 4px;
+    font-size: 15px;
     font-family: Outfit-ExtraLight;
     text-align: center;
     color: #6d84a3;
@@ -58,13 +59,13 @@ hr {
 .card {
     width: 25%;
     background-color: hsl(216, 50%, 16%);
-    border-radius: 3px;
+    border-radius: 10px;
     margin-bottom: 5px;
-    box-shadow: 0 10px 10px 10px #0c1729;
+    box-shadow: 0 15px 20px 30px #0c1729;
 }
 
 .card-image-container {
-    border-radius: 3px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,13 +74,13 @@ hr {
 
 .card-img {
     width: 100%;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 .view-card-image {
-    border-radius: 3px;
+    border-radius: 10px;
     position: absolute;
-    width: 10px;
+    width: 50px;
     z-index: -1;
 }
 
@@ -99,18 +100,18 @@ hr {
     width: 15%;
     border: 1px white solid;
     border-radius: 100%;
-    margin-right: 3px;
+    margin-right: 10px;
 }
 
 .creation-of {
     color: #546b8b;
-    font-size: 5px;
+    font-size: 25px;
     font-family: Outfit-ExtraLight;
 }
 
 .creator-name {
     color: white;
-    font-size: 5px;
+    font-size: 25px;
     font-family: Outfit-ExtraLight;
 }
 
@@ -121,8 +122,7 @@ hr {
 
 .ethereum-thumbnail,
 .clock-thumbnail {
-    margin-right: 3px;
-    height: 5px;
+    margin-right: 10px;
 }
 
 .card-price-info {
@@ -134,7 +134,7 @@ hr {
 
 .time {
     color: #728aaa;
-    font-size: 5px;
+    font-size: 25px;
     font-family: Outfit-SemiBold;
     display: flex;
     justify-content: center;
@@ -145,7 +145,7 @@ hr {
     color: #2ae5e8;
     font-family: Outfit-SemiBold;
     display: flex;
-    font-size: 5px;
+    font-size: 25px;
     justify-content: center;
     align-items: center;
 }
@@ -153,8 +153,8 @@ hr {
 .card-title {
     color: hsl(0, 0%, 100%);
     font-family: Outfit-Bold;
-    font-size: 7px;
-    margin: 5px 0 5px 0;
+    font-size: 30px;
+    margin: 15px 0 15px 0;
 }
 
 .card-title:hover {
@@ -164,7 +164,219 @@ hr {
 
 .card-info {
     color: #6a80a0;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-family: Outfit-ExtraLight;
-    font-size: 5px;
+    font-size: 25px;
+}
+
+@media (min-width: 1025px ) and (max-width: 1440px) {
+    .card-title {
+        font-size: 25px;
+        margin: 15px 0 15px 0;
+    }
+
+    .card-info {
+        margin-bottom: 12px;
+        font-size: 20px;
+    }
+
+    .view-card-image {
+        width: 10px;
+    }
+
+    .time,
+    .price,
+    .creator-name,
+    .attribution,
+    .creation-of {
+        font-size: 20px;
+    }
+
+    .ethereum-thumbnail,
+    .clock-thumbnail {
+        margin-right: 5px;
+        height: 20px;
+    }
+
+    hr {
+        margin: 15px 0 15px 0;
+    }
+
+    figure {
+        margin: 15px;
+    }
+
+    .card {
+        border-radius: 3px;
+        box-shadow: 0 10px 10px 10px #0c1729;
+    }
+
+    .card-image-container,
+    .card-img,
+    .view-card-image {
+        border-radius: 3px;
+    }
+
+    .thumbnail-img {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card-title {
+        font-size: 15px;
+        margin: 12px 0 12px 0;
+    }
+
+    .card-info {
+        margin-bottom: 12px;
+        font-size: 11px;
+    }
+
+    .view-card-image {
+        width: 10px;
+    }
+
+    .time,
+    .price,
+    .creator-name,
+    .attribution,
+    .creation-of {
+        font-size: 11px;
+    }
+
+    .ethereum-thumbnail,
+    .clock-thumbnail {
+        margin-right: 5px;
+        height: 12px;
+    }
+
+    hr {
+        margin: 12px 0 12px 0;
+    }
+
+    figure {
+        margin: 12px;
+    }
+
+    .card {
+        border-radius: 3px;
+        box-shadow: 0 10px 10px 10px #0c1729;
+    }
+
+    .card-image-container,
+    .card-img,
+    .view-card-image {
+        border-radius: 3px;
+    }
+
+    .thumbnail-img {
+        margin-right: 5px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .card-title {
+        font-size: 10px;
+        margin: 8px 0 8px 0;
+    }
+
+    .card-info {
+        margin-bottom: 5px;
+        font-size: 7px;
+    }
+
+    .view-card-image {
+        width: 10px;
+    }
+
+    .time,
+    .price,
+    .creator-name,
+    .attribution,
+    .creation-of {
+        font-size: 7px;
+    }
+
+    .ethereum-thumbnail,
+    .clock-thumbnail {
+        margin-right: 5px;
+        height: 8px;
+    }
+
+    hr {
+        margin: 8px 0 8px 0;
+    }
+
+    figure {
+        margin: 8px;
+    }
+
+    .card {
+        border-radius: 3px;
+        box-shadow: 0 10px 10px 10px #0c1729;
+    }
+
+    .card-image-container,
+    .card-img,
+    .view-card-image {
+        border-radius: 3px;
+    }
+
+    .thumbnail-img {
+        margin-right: 5px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .card-title {
+        font-size: 7px;
+        margin: 5px 0 5px 0;
+    }
+
+    .card-info {
+        margin-bottom: 5px;
+        font-size: 5px;
+    }
+
+    .view-card-image {
+        width: 10px;
+    }
+
+    .time,
+    .price,
+    .creator-name,
+    .attribution,
+    .creation-of {
+        font-size: 5px;
+    }
+
+    .ethereum-thumbnail,
+    .clock-thumbnail {
+        margin-right: 3px;
+        height: 5px;
+    }
+
+    hr {
+        margin: 5px 0 5px 0;
+    }
+
+    figure {
+        margin: 5px;
+    }
+
+    .card {
+        border-radius: 3px;
+        box-shadow: 0 10px 10px 10px #0c1729;
+    }
+
+    .card-image-container,
+    .card-img,
+    .view-card-image {
+        border-radius: 3px;
+    }
+
+    .thumbnail-img {
+        margin-right: 3px;
+    }
 }
