@@ -1,0 +1,170 @@
+@font-face {
+    font-family: Outfit-Bold;
+    src: url("/fonts/Outfit-Bold.ttf");
+}
+
+@font-face {
+    font-family: Outfit-SemiBold;
+    src: url("/fonts/Outfit-SemiBold.ttf");
+
+}
+
+@font-face {
+    font-family: Outfit-Light;
+    src: url("/fonts/Outfit-Light.ttf");
+}
+
+@font-face {
+    font-family: Outfit-ExtraLight;
+    src: url("/fonts/Outfit-ExtraLight.ttf");
+}
+
+body {
+    box-sizing: border-box;
+    background-color: hsl(217, 54%, 11%);
+}
+
+figure {
+    margin: 5px;
+}
+
+hr {
+    background-color: #2d3f57;
+    border: none;
+    height: 2px;
+    margin: 5px 0 5px 0;
+}
+
+.attribution {
+    font-size: 4px;
+    font-family: Outfit-ExtraLight;
+    text-align: center;
+    color: #6d84a3;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 25%;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 3px;
+    margin-bottom: 5px;
+    box-shadow: 0 10px 10px 10px #0c1729;
+}
+
+.card-image-container {
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0096a7;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.view-card-image {
+    border-radius: 3px;
+    position: absolute;
+    width: 10px;
+    z-index: -1;
+}
+
+.card-image-container:hover > img {
+    opacity: 0.5;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.card-creator {
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail-img {
+    height: 85%;
+    width: 15%;
+    border: 1px white solid;
+    border-radius: 100%;
+    margin-right: 3px;
+}
+
+.creation-of {
+    color: #546b8b;
+    font-size: 5px;
+    font-family: Outfit-ExtraLight;
+}
+
+.creator-name {
+    color: white;
+    font-size: 5px;
+    font-family: Outfit-ExtraLight;
+}
+
+.creator-name:hover {
+    cursor: pointer;
+    color: #13d7d7;
+}
+
+.ethereum-thumbnail,
+.clock-thumbnail {
+    margin-right: 3px;
+    height: 5px;
+}
+
+.card-price-info {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time {
+    color: #728aaa;
+    font-size: 5px;
+    font-family: Outfit-SemiBold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    color: #2ae5e8;
+    font-family: Outfit-SemiBold;
+    display: flex;
+    font-size: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    color: hsl(0, 0%, 100%);
+    font-family: Outfit-Bold;
+    font-size: 7px;
+    margin: 5px 0 5px 0;
+}
+
+.card-title:hover {
+    color: #13d7d7;
+    cursor: pointer;
+}
+
+.card-info {
+    color: #6a80a0;
+    margin-bottom: 5px;
+    font-family: Outfit-ExtraLight;
+    font-size: 5px;
+}
