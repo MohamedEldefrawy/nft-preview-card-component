@@ -181,7 +181,7 @@ hr {
     }
 
     .view-card-image {
-        width: 10px;
+        width: 35px;
     }
 
     .time,
@@ -223,18 +223,22 @@ hr {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .card {
+        width: 40%;
+    }
+
     .card-title {
-        font-size: 15px;
-        margin: 12px 0 12px 0;
+        font-size: 22px;
+        margin: 15px 0 15px 0;
     }
 
     .card-info {
-        margin-bottom: 12px;
-        font-size: 11px;
+        margin-bottom: 15px;
+        font-size: 17px;
     }
 
     .view-card-image {
-        width: 10px;
+        width: 35px;
     }
 
     .time,
@@ -242,21 +246,21 @@ hr {
     .creator-name,
     .attribution,
     .creation-of {
-        font-size: 11px;
+        font-size: 17px;
     }
 
     .ethereum-thumbnail,
     .clock-thumbnail {
-        margin-right: 5px;
-        height: 12px;
+        margin-right: 10px;
+        height: 15px;
     }
 
     hr {
-        margin: 12px 0 12px 0;
+        margin: 15px 0 15px 0;
     }
 
     figure {
-        margin: 12px;
+        margin: 15px;
     }
 
     .card {
@@ -271,23 +275,27 @@ hr {
     }
 
     .thumbnail-img {
-        margin-right: 5px;
+        margin-right: 10px;
     }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+    .card {
+        width: 50%;
+    }
+
     .card-title {
-        font-size: 10px;
-        margin: 8px 0 8px 0;
+        font-size: 25px;
+        margin: 15px 0 15px 0;
     }
 
     .card-info {
-        margin-bottom: 5px;
-        font-size: 7px;
+        margin-bottom: 15px;
+        font-size: 21px;
     }
 
     .view-card-image {
-        width: 10px;
+        width: 25px;
     }
 
     .time,
@@ -295,21 +303,21 @@ hr {
     .creator-name,
     .attribution,
     .creation-of {
-        font-size: 7px;
+        font-size: 21px;
     }
 
     .ethereum-thumbnail,
     .clock-thumbnail {
         margin-right: 5px;
-        height: 8px;
+        height: 15px;
     }
 
     hr {
-        margin: 8px 0 8px 0;
+        margin: 15px 0 15px 0;
     }
 
     figure {
-        margin: 8px;
+        margin: 15px;
     }
 
     .card {
@@ -324,23 +332,31 @@ hr {
     }
 
     .thumbnail-img {
-        margin-right: 5px;
+        margin-right: 10px;
+    }
+
+    .attribution {
+        font-size: 10px;
     }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .card {
+        width: 75%;
+    }
+
     .card-title {
-        font-size: 7px;
-        margin: 5px 0 5px 0;
+        font-size: 18px;
+        margin: 15px 0 15px 0;
     }
 
     .card-info {
-        margin-bottom: 5px;
-        font-size: 5px;
+        margin-bottom: 15px;
+        font-size: 16px;
     }
 
     .view-card-image {
-        width: 10px;
+        width: 20px;
     }
 
     .time,
@@ -348,21 +364,21 @@ hr {
     .creator-name,
     .attribution,
     .creation-of {
-        font-size: 5px;
+        font-size: 16px;
     }
 
     .ethereum-thumbnail,
     .clock-thumbnail {
         margin-right: 3px;
-        height: 5px;
+        height: 16px;
     }
 
     hr {
-        margin: 5px 0 5px 0;
+        margin: 15px 0 15px 0;
     }
 
     figure {
-        margin: 5px;
+        margin: 10px;
     }
 
     .card {
@@ -377,6 +393,10 @@ hr {
     }
 
     .thumbnail-img {
-        margin-right: 3px;
+        margin-right: 5px;
+    }
+
+    .attribution {
+        font-size: 10px;
     }
 }
