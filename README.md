@@ -29,7 +29,7 @@ Users should be able to:
 ![Desktop view](./screenshots/Mobile.png)
 
 ### Links
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Live Site URL: [Live](https://mohamedeldefrawy.github.io/nft-preview-card-component/)
 
 ## My Process
 ### Built with
